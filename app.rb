@@ -8,6 +8,7 @@ get '/' do
 end
 
 get '/translate' do
+  @title = "Translate Form"
   erb :translate
 end
 
@@ -15,9 +16,10 @@ post '/translate' do
   phrase = params["post"]["phrase"]
   if (phrase)
     @translated = PigLatin.translate( phrase )
-    # @translated = phrase
+    @title = "Translate Response"
     erb :result
   else
+    @title = "Translate Form"
     erb :translate
   end
 end
