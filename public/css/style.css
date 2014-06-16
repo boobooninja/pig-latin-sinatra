@@ -3,38 +3,22 @@
   margin-top: 20%;
 }
 
-.panel {
+/*#my-box {
+  width: 80%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+*/
+
+div.panel {
   -webkit-border-radius: 15px;
   border-radius: 15px;
   padding: 20px;
   margin: 0 auto;
   width: 75%;
 }
-
-#my-input.grey-border {
-  border: 2px solid grey;
-}
-
-#my-input.yellow-border {
-  border: 2px solid yellow;
-}
-
-#my-input.red-border {
-  border: 2px solid red;
-}
-
-#my-box.grey-box {
-  background: grey;
-}
-
-#my-box.yellow-box {
-  background: yellow;
-}
-
-#my-box.red-box {
-  background: red;
-}
-
 
 #my-input {
   text-align: center;
